@@ -62,7 +62,7 @@ table {
 .navbar-brand {
     width: 50%;
     margin-right: 0px;
-    text-align: center;
+	text-align: center;
 }
 
 .navbar-collapse {
@@ -72,4 +72,31 @@ table {
 .nav-item {
     white-space: nowrap;
     overflow: hidden;
+}
+
+.navbar-light .navbar-brand {
+	color: #fff;
+}
+
+/*
+	Home
+*/
+
+h1 {
+	display: table-cell;
+    vertical-align:middle; 
+}
+
+.home div {
+	height: 100vh;
+}
+
+.home-picture {
+	background-image: url("../images/personal-photo.jpg");
+	background-size: cover;
+}
+
+.home-intro {
+	display: table;
+	background-color: #edc951;
 }
