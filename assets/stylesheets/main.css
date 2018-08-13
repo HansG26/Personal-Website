@@ -46,3 +46,30 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* 
+    General
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*
+    Navbar
+*/
+
+.navbar-brand {
+    width: 50%;
+    margin-right: 0px;
+    text-align: center;
+}
+
+.navbar-collapse {
+    width: 50%;
+}
+
+.nav-item {
+    white-space: nowrap;
+    overflow: hidden;
+}
