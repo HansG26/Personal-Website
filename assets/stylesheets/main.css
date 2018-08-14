@@ -76,6 +76,29 @@
 	background-size: cover;
 }
 
-.about-me-skills {
+.about-me-info {
     background-color: #f4a261;
+}
+
+/* 
+    Education
+*/
+
+.education div {
+    height: 50vh;
+    position: relative;
+}
+
+.education h1{
+    position: absolute;
+    top: 50%;
+}
+
+.education-picture {
+    background-image: url("../images/personal-photo.jpg");
+	background-size: cover;
+}
+
+.education-info {
+    background-color: #264653;
 }
