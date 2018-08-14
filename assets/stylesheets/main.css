@@ -44,27 +44,20 @@
     top: 50%;
 }
 
-.home div {
-	height: 100vh;
-}
-
 .home-picture {
 	background-image: url("../images/personal-photo.jpg");
-	background-size: cover;
+    background-size: cover;
+    height: 100vh;
 }
 
 .home-intro {
-	background-color: #e9c46a;
+    background-color: #e9c46a;
+    height: 100vh;
 }
 
 /*
     About me
 */
-
-.about-me div {
-    height: 50vh;
-    position: relative;
-}
 
 .about-me h1 {
     position: absolute;
@@ -73,21 +66,24 @@
 
 .about-me-picture {
     background-image: url(../images/about-me-photo.jpg);
-	background-size: cover;
+    background-size: cover;
+    height: 50vh;
 }
 
 .about-me-info {
     background-color: #f4a261;
+    height: 50vh;
+    position: relative;
+}
+
+.about-me-skills {
+    height: 50vh;
 }
 
 /* 
     Education
 */
 
-.education div {
-    height: 50vh;
-    position: relative;
-}
 
 .education h1{
     position: absolute;
@@ -96,9 +92,12 @@
 
 .education-picture {
     background-image: url("../images/education-photo.jpg");
-	background-size: cover;
+    background-size: cover;
+    height: 50vh;
 }
 
 .education-info {
     background-color: #264653;
+    height: 50vh;
+    position: relative;
 }
