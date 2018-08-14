@@ -72,7 +72,7 @@
 }
 
 .about-me-picture {
-    background-image: url("../images/personal-photo.jpg");
+    background-image: url(../images/about-me-photo.jpg);
 	background-size: cover;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .education-picture {
-    background-image: url("../images/personal-photo.jpg");
+    background-image: url("../images/education-photo.jpg");
 	background-size: cover;
 }
 
