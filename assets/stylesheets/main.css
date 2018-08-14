@@ -2,10 +2,6 @@
     General
 */
 
-* {
-    box-sizing: border-box;
-}
-
 /*
     Navbar
 */
@@ -43,9 +39,9 @@
 	Home
 */
 
-h1 {
-	display: table-cell;
-    vertical-align:middle; 
+.home h1 {
+    position: absolute;
+    top: 50%;
 }
 
 .home div {
@@ -58,6 +54,28 @@ h1 {
 }
 
 .home-intro {
-	display: table;
 	background-color: #e9c46a;
+}
+
+/*
+    About me
+*/
+
+.about-me div {
+    height: 50vh;
+    position: relative;
+}
+
+.about-me h1 {
+    position: absolute;
+    top: 50%;
+}
+
+.about-me-picture {
+    background-image: url("../images/personal-photo.jpg");
+	background-size: cover;
+}
+
+.about-me-skills {
+    background-color: #f4a261;
 }
