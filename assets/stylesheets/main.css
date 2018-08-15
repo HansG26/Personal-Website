@@ -85,7 +85,7 @@
 */
 
 
-.education h1{
+.education h1 {
     position: absolute;
     top: 50%;
 }
@@ -98,6 +98,27 @@
 
 .education-info {
     background-color: #264653;
+    height: 50vh;
+    position: relative;
+}
+
+/* 
+    Experiences
+*/
+
+.experiences h1 {
+    position: absolute;
+    top: 50%;
+}
+
+.experiences-picture {
+    background-image: url(../images/about-me-photo.jpg);
+    background-size: cover;
+    height: 50vh;
+} 
+
+.experiences-info {
+    background-color: #e76f51;
     height: 50vh;
     position: relative;
 }
