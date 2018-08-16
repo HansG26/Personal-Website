@@ -104,7 +104,7 @@
 }
 
 .personality3 {
-    background-color: #f4a261;
+    background-color: #e76f51;
 }
 
 .personality4 {
@@ -152,4 +152,39 @@
     background-color: #e76f51;
     height: 50vh;
     position: relative;
+}
+
+/*
+    Contact
+*/
+
+.contact h1 {
+    position: absolute;
+    top: 50%;
+}
+
+.contact-form {
+    background-color: #2a9d8f;
+    height: 70vh;
+    position: relative;
+}
+
+.contact-picture {
+    background-image: url(../images/personal-photo.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+
+.contact-info {
+    background-color: #f4a261;
+    height: 70vh;
+}
+
+/*
+    Footer
+*/
+
+.footer {
+    background-color: #264653;
+    height: 10vh;
 }
