@@ -85,7 +85,7 @@
     Personality
 */
 
-.personality .row div {
+.personality .row section {
     height: 50vh;
     position: relative;
 }
