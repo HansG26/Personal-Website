@@ -71,13 +71,14 @@
 }
 
 .about-me-info {
-    background-color: #f4a261;
+    background-color: #fff;
     height: 50vh;
     position: relative;
 }
 
 .about-me-skills {
     height: 50vh;
+    background-color: #f4a261;
 }
 
 /*
@@ -95,19 +96,19 @@
 }
 
 .personality1 {
-    background-color: #fff;
+    background-color: #f4a261;
 }
 
 .personality2 {
-    background-color: #2a9d8f;
-}
-
-.personality3 {
     background-color: #e9c46a;
 }
 
+.personality3 {
+    background-color: #2a9d8f;
+}
+
 .personality4 {
-    background-color: #f4a261;
+    background-color: #fff;
 }
 
 /* 
