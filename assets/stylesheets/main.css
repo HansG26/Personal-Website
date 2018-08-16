@@ -4,16 +4,25 @@
 
 body {
     font-family: "Raleway";
+    color: #111;
+    font-weight: 400;
 }
 
 /*
     Navbar
 */
 
+.navbar {
+    line-height: 3em;
+}
+
 .navbar-brand {
     width: 50%;
     margin-right: 0px;
-	text-align: center;
+    text-align: center;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 700;
+    font-size: 1.5em;
 }
 
 .navbar-collapse {
@@ -25,17 +34,9 @@ body {
     overflow: hidden;
 }
 
-.navbar-light .navbar-brand {
-	color: #fff;
-}
-
 @media (max-width: 768px) { 
     .navbar {
         background-color: #fff;
-    }
-
-    .navbar-light a.navbar-brand {
-        color: rgba(0,0,0,.5);
     }
 }
 
