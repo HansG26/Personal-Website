@@ -11,60 +11,60 @@
 </head>
 <body>
 
-    <!-- Navbar -->
+    <div class="container-fluid">
 
-    <nav class="navbar fixed-top navbar-expand-md navbar-light">
-        
-        <!-- Brand name-->
-        <a class="navbar-brand" href="#">Hans Goos</a>
+        <!-- Navbar -->
 
-        <!-- Setup Toggler-->
+        <nav class="navbar fixed-top navbar-expand-md navbar-light">
+            
+            <!-- Brand name-->
+            <a class="navbar-brand" href="#">Hans Goos</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <!-- Right menu items (will collapse)-->
+            <!-- Setup Toggler-->
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#top">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Experiences</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Right menu items (will collapse)-->
 
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
 
-    <!--Main Section-->
+        </nav>
 
-    <main>
-        
-        <div class="container-fluid">
+        <!--Home (header)-->
 
-            <!--Home-->
-
-            <section class="home" id="top">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 home-picture"></div>
-                    <div class="col-md-6 col-sm-12 home-intro">
-                        <h1>Intro Text</h1>
-                    </div>
+        <header class="home" id="top">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 home-picture"></div>
+                <div class="col-md-6 col-sm-12 home-intro">
+                    <h1>Intro Text</h1>
                 </div>
-            </section>
+            </div>
+        </header>
+
+        <!--Main section-->
+
+        <main>
 
             <!--More Info-->
 
@@ -119,10 +119,24 @@
                 </div>
             </section>
 
-        </div>
-        
-    </main>
+            <!--Contact-->
+
+            <section class="contact">
+                <div class="row">
+                    <section class="col-md-6 col-sm-12 contact-form">
+                        <h1>Contact Form</h1>
+                    </section>
+                    <div class="col-md-3 col-sm-12 contact-picture"></div>
+                    <section class="col-md-3 col-sm-12 contact-info">
+                        <h2>Social</h2>
+                    </section>
+                </div>
+            </section>
+
+        </main> 
     
+    </div>
+
     <!--Script tags-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
