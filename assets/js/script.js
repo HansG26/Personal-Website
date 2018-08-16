@@ -1,9 +1,9 @@
 var navbar = document.querySelector(".navbar");
 
-// adjust backgroubd-color navbar on scrolling
+// adjust background-color navbar on scrolling
 
 window.addEventListener("scroll", function() {
-    if(window.scrollY < 100 || window.scrollX > 720) {
+    if (window.scrollY < 100 && document.body.clientWidth >= 992) {
         navbar.style.backgroundColor = "transparent";
     } else {
         navbar.style.backgroundColor = "white";
