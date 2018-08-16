@@ -1,6 +1,4 @@
 var navbar = document.querySelector(".navbar");
-var aboutMeSection = document.getElementsByClassName("about-me");
-var aboutMeLink = document.getElementById("about-me-id");
 
 // adjust backgroubd-color navbar on scrolling
 
@@ -22,4 +20,3 @@ window.addEventListener("resize", function () {
         navbar.style.backgroundColor = "white";
     }
 });
-
