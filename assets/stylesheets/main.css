@@ -80,6 +80,36 @@
     height: 50vh;
 }
 
+/*
+    Personality
+*/
+
+.personality .row div {
+    height: 50vh;
+    position: relative;
+}
+
+.personality h1 {
+    position: absolute;
+    top: 50%;
+}
+
+.personality1 {
+    background-color: #fff;
+}
+
+.personality2 {
+    background-color: #2a9d8f;
+}
+
+.personality3 {
+    background-color: #e9c46a;
+}
+
+.personality4 {
+    background-color: #f4a261;
+}
+
 /* 
     Education
 */
