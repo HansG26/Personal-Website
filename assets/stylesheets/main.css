@@ -69,6 +69,7 @@ body {
 .welcome-text h1 {
     color: rgba(0,0,0,.5);
     margin: 20px;
+    font-weight: 300;
 }
 
 .welcome-text h3 {
@@ -90,6 +91,7 @@ body {
     font-size: 0.85em;
     margin: 40px 0 0 20px;
     font-weight: 700;
+    outline: 0;
 }
 
 .welcome-text button:hover {
@@ -103,27 +105,44 @@ body {
     About me
 */
 
-.about-me h1 {
-    position: absolute;
-    top: 50%;
+
+
+.about-me-info {
+    background-color: #fff;
+    min-height: 50vh;
+    padding: 30px;
+}
+
+.about-me-info h2 {
+    color: rgba(0,0,0,.5);
+    font-weight: 300;
+}
+
+.about-me-info p:first-of-type {
+    color: #f4a261;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.about-me-info p:last-of-type {
+    color: rgba(0,0,0,0.3);
+    line-height: 2em;
+    text-align: left;
+    margin: 30px 0 0 0;
 }
 
 .about-me-picture {
     background-image: url("../images/personal-photo.jpg");
     background-size: cover;
-    height: 50vh;
-}
-
-.about-me-info {
-    background-color: #fff;
-    height: 50vh;
-    position: relative;
+    min-height: 50vh;
 }
 
 .about-me-skills {
-    height: 50vh;
+    min-height: 50vh;
     background-color: #f4a261;
 }
+
+
 
 /*
     Personality
