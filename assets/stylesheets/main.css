@@ -41,7 +41,8 @@ body {
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: #f4a261;
-    transition: color 0.8s;
+    transition: all 0.8s;
+    font-weight: 700;
 }
 
 /*
@@ -82,15 +83,14 @@ body {
     background: 0;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    border: 3px solid rgba(0,0,0,.5);
+    border: 3px solid rgba(0,0,0,.9);
     border-radius: 40px/40px;
     padding: 20px;
     cursor: pointer;
     font-size: 0.85em;
     margin: 40px 0 0 20px;
+    font-weight: 700;
 }
-
-
 
 /*
     About me
