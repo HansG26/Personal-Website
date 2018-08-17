@@ -20,3 +20,13 @@ window.addEventListener("resize", function () {
         navbar.style.backgroundColor = "white";
     }
 });
+
+// Make scrolling smooth when link is clicked
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
