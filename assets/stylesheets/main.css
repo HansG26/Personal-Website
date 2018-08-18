@@ -139,13 +139,33 @@ body {
     padding: 35px;
     min-height: 50vh;
     background-color: #f4a261;
+    color: #fff;
 }
 
 .about-me-skills h2 {
-    color: #fff;
     font-weight: 300;
 }
 
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.skills-list li {
+    display:flex;
+    align-items:center;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+}
+
+.fab {
+    color: rgba(0,0,0,.9);
+    font-size: 2em;
+    margin: 0 25px 0 0;
+}
 
 /*
     Personality
