@@ -105,12 +105,10 @@ body {
     About me
 */
 
-
-
 .about-me-info {
     background-color: #fff;
     min-height: 50vh;
-    padding: 30px;
+    padding: 35px;
 }
 
 .about-me-info h2 {
@@ -138,11 +136,15 @@ body {
 }
 
 .about-me-skills {
+    padding: 35px;
     min-height: 50vh;
     background-color: #f4a261;
 }
 
-
+.about-me-skills h2 {
+    color: #fff;
+    font-weight: 300;
+}
 
 /*
     Personality
