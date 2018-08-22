@@ -117,7 +117,7 @@ body {
 }
 
 .about-me-info p:first-of-type {
-    color: #f4a261;
+    color: #e9c46a;
     font-weight: 300;
     margin-bottom: 0;
 }
@@ -254,21 +254,40 @@ body {
     Experiences
 */
 
-.experiences h1 {
-    position: absolute;
-    top: 50%;
+.experiences {
+    min-height: 50vh;
+    color: #fff;
+    padding: 35px;
 }
 
 .experiences-picture {
     background-image: url(../images/about-me-photo.jpg);
     background-size: cover;
-    height: 50vh;
 } 
 
 .experiences-info {
     background-color: #e76f51;
-    height: 50vh;
-    position: relative;
+}
+
+.experiences ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experiences h2 {
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.experiences h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.experiences p {
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #e9c46a;
 }
 
 /*
