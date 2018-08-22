@@ -157,44 +157,56 @@ body {
     align-items:center;
     margin-bottom: 25px;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1.05em;
     letter-spacing: 0.2em;
 }
 
 .fab {
-    color: rgba(0,0,0,.9);
+    color: rgba(0,0,0,.5);
     font-size: 2em;
-    margin: 0 25px 0 0;
+    margin: 0 15px 0 0;
 }
 
 /*
     Personality
 */
 
-.personality .row section {
-    height: 50vh;
-    position: relative;
+.personality {
+    min-height: 50vh;
+    color: #fff;
+    text-align: center;
+    padding: 35px;
 }
 
-.personality h1 {
-    position: absolute;
-    top: 50%;
-}
-
-.personality1 {
+.personality-problem {
     background-color: #2a9d8f;
 }
 
-.personality2 {
+.personality-time {
     background-color: #e9c46a;
 }
 
-.personality3 {
+.personality-team {
     background-color: #e76f51;
 }
 
-.personality4 {
+.personality-work {
     background-color: #fff;
+    color: rgba(0,0,0,.5);
+}
+
+.personality i {
+    font-size: 2em;
+}
+
+.personality h3 {
+    font-weight: 300;
+    margin: 20px 0 30px 0;
+    white-space: normal;
+}
+
+.personality p {
+    line-height: 2em;
 }
 
 /* 

@@ -13,7 +13,6 @@ window.addEventListener("scroll", function() {
 // adjust background-color navbar on resizing
 
 window.addEventListener("resize", function () {
-    console.log(document.body.clientWidth);
     if (document.body.clientWidth >= 992) {
         navbar.style.backgroundColor = "transparent";
     } else {
