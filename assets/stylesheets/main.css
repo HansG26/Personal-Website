@@ -6,7 +6,13 @@ body {
     font-family: "Raleway";
     color: rgba(0,0,0,.5);
     font-weight: 400;
-    position: relative;
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 60px; /* fixed header height*/
+  margin: -60px 0 0; /* negative fixed header height */
 }
 
 /*
@@ -104,6 +110,11 @@ body {
 /*
     About me
 */
+
+#about-me-id {
+    padding-top: 64px;
+    margin-top: -64px;
+}
 
 .about-me-info {
     background-color: #fff;
@@ -213,6 +224,10 @@ body {
     Education
 */
 
+#education-id {
+    padding-top: 64px;
+    margin-top: -64px;
+}
 
 .education {
     min-height: 50vh;
@@ -254,6 +269,11 @@ body {
     Experiences
 */
 
+#experiences-id {
+    padding-top: 64px;
+    margin-top: -64px;
+}
+
 .experiences {
     min-height: 50vh;
     color: #fff;
@@ -293,6 +313,11 @@ body {
 /*
     Contact
 */
+
+#contact-id {
+    padding-top: 64px;
+    margin-top: -64px;
+}
 
 .contact {
     min-height: 70vh;
