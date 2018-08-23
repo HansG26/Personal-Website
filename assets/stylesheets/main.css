@@ -329,9 +329,59 @@ body {
     background-color: #2a9d8f;
 }
 
+.contact-form h2 {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact-form p {
+    color: #e9c46a;
+    margin-bottom: 30px;
+}
+
 .input-field {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #e9c46a;
+    outline: none;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 10px 10px 15px;
+}
+
+.input-field::placeholder {
+    color: #fff;
+    font-weight: 300;
+}
+
+.input-field:focus {
+    border-bottom-color: #fff;
+    transition: border-bottom-color 0.8s; 
+    caret-color: #e9c46a;
+}
+
+.contact-form button {
+    background: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border: 2px solid #e9c46a;
+    border-radius: 40px/40px;
+    padding: 20px 50px 20px 50px;
+    cursor: pointer;
+    font-size: 0.85em;
+    font-weight: 700;
+    outline: 0;
+    color: #fff;
+}
+
+.contact-form button:hover {
+    color: #e9c46a;
+    background: #fff;
+    border: 2px solid #fff;
+    transition: all 0.4s;
 }
 
 .contact-picture {
