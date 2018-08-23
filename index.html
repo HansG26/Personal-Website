@@ -181,7 +181,12 @@
             <section id="contact-id">
                 <div class="row">
                     <section class="contact contact-form col-lg-6 col-sm-12">
-                        <h1>Contact Form</h1>
+                        <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbz1FmlpY28b5mGc2hUydNQvULkSqP48OBuaGT82PQ/exec">
+                            <input type="text" name="name" class="input-field">
+                            <input type="email" name="email" class="input-field">
+                            <textarea name="message" cols="30" rows="10" class="input-field"></textarea>
+                            <input type="submit">
+                        </form>
                     </section>
                     <div class="contact contact-picture col-lg-3 col-md-6 col-sm-12"></div>
                     <section class="contact contact-info col-lg-3 col-md-6 col-sm-12">
@@ -226,5 +231,6 @@
         crossorigin="anonymous"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="assets/js/form-submission-handler.js"></script>
 </body>
 </html>
