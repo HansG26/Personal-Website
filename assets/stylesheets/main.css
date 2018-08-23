@@ -337,6 +337,7 @@ body {
 .contact-form p {
     color: #e9c46a;
     margin-bottom: 30px;
+    font-weight: 300;
 }
 
 .input-field {
@@ -375,6 +376,13 @@ body {
     font-weight: 700;
     outline: 0;
     color: #fff;
+}
+
+.thank-you-message {
+    display: none;
+    margin-top: 15px;
+    color: #e9c46a;
+    font-weight: 300;
 }
 
 .contact-form button:hover {
