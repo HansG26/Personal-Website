@@ -1,22 +1,26 @@
 var navbar = document.querySelector(".navbar");
 
-// adjust background-color navbar on scrolling
+// adjust navbar on scrolling
 
 window.addEventListener("scroll", function() {
     if (window.scrollY < 100 && document.body.clientWidth >= 992) {
         navbar.style.backgroundColor = "transparent";
+        navbar.style.boxShadow = "none";
     } else {
         navbar.style.backgroundColor = "white";
+        navbar.style.boxShadow = "0 1px 2px -2px #999999";
     }
 });
 
-// adjust background-color navbar on resizing
+// adjust navbar on resizing
 
 window.addEventListener("resize", function () {
-    if (document.body.clientWidth >= 992 &&window.scrollY < 100 ) {
+    if (document.body.clientWidth >= 992 && window.scrollY < 100 ) {
         navbar.style.backgroundColor = "transparent";
+        navbar.style.boxShadow = "none";
     } else {
         navbar.style.backgroundColor = "white";
+        navbar.style.boxShadow = "0 1px 2px -2px #999999";
     }
 });
 
