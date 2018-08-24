@@ -10,12 +10,18 @@ body {
     font-weight: 300;
 }
 
-:target::before {
+h1, h2, h3 {
+    font-weight: 300;
+}
+
+/* trash? */
+
+/* :target::before {
   content: "";
   display: block;
-  height: 60px; /* fixed header height*/
-  margin: -60px 0 0; /* negative fixed header height */
-}
+  height: 60px;
+  margin: -60px 0 0;
+} */
 
 /*
 ================
@@ -29,7 +35,6 @@ body {
 
 .navbar-brand {
     width: 50%;
-    margin-right: 0px;
     text-align: center;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     font-weight: 700;
@@ -55,6 +60,7 @@ body {
     font-weight: 700;
 }
 
+/* make navbar white when page is loaded on smaller screen */
 @media (max-width: 991px) {
     .navbar {
         background-color: #fff;
@@ -87,7 +93,6 @@ body {
 .welcome-text h1 {
     color: rgba(0,0,0,.5);
     margin: 20px;
-    font-weight: 300;
 }
 
 .welcome-text h3 {
@@ -116,7 +121,7 @@ body {
 .welcome-text button:hover {
     border: 3px solid #f4a261;
     background-color: #f4a261;
-    color: white;
+    color: #fff;
     transition: all 0.4s;
 }
 
@@ -165,7 +170,6 @@ body {
     padding: 35px;
     min-height: 50vh;
     background-color: #f4a261;
-    color: #fff;
 }
 
 .about-me-skills h2 {
@@ -182,7 +186,6 @@ body {
     display:flex;
     align-items:center;
     margin-bottom: 25px;
-    font-weight: 300;
     font-size: 1.05em;
     letter-spacing: 0.2em;
 }
@@ -201,7 +204,6 @@ body {
 
 .personality {
     min-height: 50vh;
-    color: #fff;
     text-align: center;
     padding: 35px;
 }
@@ -228,7 +230,6 @@ body {
 }
 
 .personality h3 {
-    font-weight: 300;
     margin: 20px 0 30px 0;
     white-space: normal;
 }
@@ -251,7 +252,6 @@ body {
 .education {
     min-height: 50vh;
     padding: 35px;
-    color: #fff;
 }
 
 .education-picture {
@@ -297,7 +297,7 @@ body {
 
 .experiences {
     min-height: 50vh;
-    color: #fff;
+
     padding: 35px;
 }
 
@@ -344,7 +344,6 @@ body {
 
 .contact {
     min-height: 70vh;
-    color: rgba(0,0,0,.5);
     padding: 35px;
 } 
 
@@ -353,7 +352,6 @@ body {
 }
 
 .contact-form h2 {
-    color: #fff;
     font-weight: 300;
 }
 
@@ -423,6 +421,8 @@ body {
 
 .contact-info {
     background-color: #fff;
+    color: rgba(0,0,0,.5);
+    font-weight: 400;
 }
 
 .contact-info h2 {
@@ -438,7 +438,6 @@ body {
 
 .social-list a {
     color: #f4a261;
-    font-weight: 300;
     text-decoration: none;
 }
 
@@ -446,7 +445,7 @@ body {
     display:flex;
     align-items:center;
     margin-bottom: 45px;
-    font-weight: 300;
+
     font-size: 0.95em;
     letter-spacing: 0.05em;
 }
@@ -465,7 +464,6 @@ body {
 
 .footer {
     background-color: #264653;
-    color: #fff;
     min-height: 10vh;
     text-align: center;
     padding: 20px;
