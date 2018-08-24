@@ -1,11 +1,13 @@
-/* 
+/*
+================
     General
+================
 */
 
 body {
     font-family: "Raleway";
-    color: rgba(0,0,0,.5);
-    font-weight: 400;
+    color: #fff;
+    font-weight: 300;
 }
 
 :target::before {
@@ -16,7 +18,9 @@ body {
 }
 
 /*
+================
     Navbar
+================
 */
 
 .navbar {
@@ -58,7 +62,9 @@ body {
 }
 
 /*
-	Home
+================
+    Home
+================
 */
 
 .home-picture {
@@ -115,7 +121,9 @@ body {
 }
 
 /*
+================
     About me
+================
 */
 
 #about-me-id {
@@ -186,7 +194,9 @@ body {
 }
 
 /*
+====================
     Personality
+====================
 */
 
 .personality {
@@ -228,7 +238,9 @@ body {
 }
 
 /* 
+==================
     Education
+==================
 */
 
 #education-id {
@@ -273,7 +285,9 @@ body {
 }
 
 /* 
+===================
     Experiences
+===================
 */
 
 #experiences-id {
@@ -318,7 +332,9 @@ body {
 }
 
 /*
+================
     Contact
+================
 */
 
 #contact-id {
@@ -442,7 +458,9 @@ body {
 }
 
 /*
+===============
     Footer
+===============
 */
 
 .footer {
