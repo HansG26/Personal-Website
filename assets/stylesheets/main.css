@@ -35,8 +35,8 @@ h1, h2, h3 {
 
 .navbar-brand {
     width: 50%;
-    text-align: center;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    padding-left: 80px;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
     font-weight: 700;
     font-size: 1.5em;
 }
@@ -74,7 +74,7 @@ h1, h2, h3 {
 */
 
 .home-picture {
-	background-image: url("../images/about-me-photo.jpg");
+	background-image: url("../images/home.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -83,7 +83,7 @@ h1, h2, h3 {
     background-color: #e9c46a;
     height: 100vh;
     position: relative;
-}
+} 
 
 .welcome-text {
     position: absolute;
@@ -92,7 +92,7 @@ h1, h2, h3 {
 
 .welcome-text h1 {
     color: rgba(0,0,0,.5);
-    margin: 20px;
+    margin: 20px; 
 }
 
 .welcome-text h3 {
@@ -161,7 +161,7 @@ h1, h2, h3 {
 }
 
 .about-me-picture {
-    background-image: url("../images/personal-photo.jpg");
+    background-image: url("../images/about-me.jpg");
     background-size: cover;
     min-height: 50vh;
 }
@@ -255,7 +255,7 @@ h1, h2, h3 {
 }
 
 .education-picture {
-    background-image: url("../images/education-photo.jpg");
+    background-image: url("../images/education.jpeg");
     background-size: cover;
 }
 
@@ -302,7 +302,7 @@ h1, h2, h3 {
 }
 
 .experiences-picture {
-    background-image: url(../images/about-me-photo.jpg);
+    background-image: url("../images/experiences.jpg");
     background-size: cover;
 } 
 
@@ -415,7 +415,7 @@ h1, h2, h3 {
 }
 
 .contact-picture {
-    background-image: url(../images/personal-photo.jpg);
+    background-image: url("../images/contact.jpg");
     background-size: cover;
 }
 
